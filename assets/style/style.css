@@ -1,0 +1,80 @@
+/* .red {
+  color: red;
+}
+.green {
+  color: green;
+}
+.grey {
+  background-color: grey;
+}
+.blue {
+  background-color: blue;
+} */
+:root {
+  --cardWidth: 280px;
+}
+.workersSectoin {
+  padding: 20px;
+}
+.workerslist {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+.workerLi {
+  margin: 10px;
+}
+.workerCard {
+  max-width: var(--cardWidth);
+}
+.imgWrapper {
+  position: relative;
+  max-width: inherit;
+  width: 100%;
+  height: var(--cardWidth);
+}
+.initials {
+  position: absolute;
+  inset: 0;
+  color: lightgray;
+  font-size: 3rem;
+  font-weight: bold;
+  background-color: black;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+.cardImg {
+  display: block;
+  width: 100%;
+  position: absolute;
+  inset: 0;
+  height: var(--cardWidth);
+  object-fit: cover;
+  object-position: top;
+}
+.cardInfo {
+  margin-top: 20px;
+}
+.cardName {
+  font-weight: bold;
+  font-size: 1.5rem;
+}
+.cardDescription {
+  margin-top: 20px;
+  line-height: 1.4;
+  color: rgb(122, 122, 122);
+}
+.linkContainer {
+}
+.linkList {
+  display: flex;
+  justify-content: space-around;
+  margin-top: 20px;
+}
+.linkItem {
+}
+.linkPic {
+  width: 50px;
+}
